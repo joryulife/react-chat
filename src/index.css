@@ -17,7 +17,7 @@ code {
   max-width: 500px;
 }
 
-@media screen and (max-width:520px) {
+@media screen and (max-width:520px) { 
   /*　画面サイズが520pxからはここを読み込む　*/
   .b__message-main {
     margin: 0 20px;
@@ -32,6 +32,7 @@ code {
 
 .b__message-main .textArea form {
   width: 80%;
+  
 }
 
 .b__message-main .textArea form .text {

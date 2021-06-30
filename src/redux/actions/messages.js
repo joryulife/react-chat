@@ -1,5 +1,4 @@
 import {createActions} from 'redux-actions';
-
 import {firebaseDb} from '../../firebase';
 
 const messagesRef = firebaseDb.ref('messages');
@@ -28,3 +27,5 @@ const {messages} = createActions({
 });
 
 export {messages};
+
+//inputの入力値はComponentで管理したほうがいい
